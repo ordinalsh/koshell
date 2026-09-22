@@ -1,0 +1,46 @@
+{
+  "name": "Koshell",
+  "primary": "#00c2a8",
+  "theme": "dark",
+  "sections": [
+    {
+      "type": "section",
+      "name": "Guía",
+      "pages": [
+        { "type": "page", "name": "Inicio", "md_url": "index.md" },
+        { "type": "page", "name": "Primeros pasos", "md_url": "getting-started.md" },
+        { "type": "page", "name": "Koskript en Koshell", "md_url": "koskript.md" },
+        { "type": "page", "name": "La stdlib", "md_url": "standard.md" }
+      ]
+    },
+    {
+      "type": "section",
+      "name": "Referencia",
+      "pages": [
+        { "type": "page", "name": "filesystem", "md_url": "filesystem.md" },
+        { "type": "page", "name": "process", "md_url": "process.md" },
+        { "type": "page", "name": "tasks", "md_url": "tasks.md" },
+        { "type": "page", "name": "env", "md_url": "env.md" },
+        { "type": "page", "name": "system", "md_url": "system.md" },
+        { "type": "page", "name": "clock", "md_url": "clock.md" },
+        { "type": "page", "name": "network", "md_url": "network.md" },
+        { "type": "page", "name": "archive", "md_url": "archive.md" },
+        { "type": "page", "name": "codec", "md_url": "codec.md" },
+        { "type": "page", "name": "data", "md_url": "data.md" },
+        { "type": "page", "name": "output", "md_url": "output.md" },
+        { "type": "page", "name": "input", "md_url": "input.md" },
+        { "type": "page", "name": "logger", "md_url": "logger.md" },
+        { "type": "page", "name": "koshell", "md_url": "koshell.md" }
+      ]
+    },
+    {
+      "type": "section",
+      "name": "Recursos",
+      "pages": [
+        { "type": "link", "name": "Documentación de Koskript", "url": "https://koskript.alesis.buzz/" },
+        { "type": "link", "name": "DocMD", "url": "https://docmd.alesis.buzz/" },
+        { "type": "link", "name": "Koskript en PyPI", "url": "https://pypi.org/project/koskript/" }
+      ]
+    }
+  ]
+}
